@@ -1,0 +1,47 @@
+### --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+models/
+data/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+### --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+### --- Machine Learning & Data ---
+# No subas datasets gigantes (mejor bajarlos con script)
+*.csv
+*.json
+*.sql
+*.sqlite
+
+# Modelos guardados (pickles, joblib)
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+### --- GIS / Geodata ---
+# Archivos temporales de Shapefiles y caches de OSMnx
+.cache/
+osmnx.log
+*.shp
+*.shx
+*.dbf
+*.prj
+
+### --- Entorno y Configuración ---
+.env
+.venv
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
